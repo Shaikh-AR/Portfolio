@@ -14,6 +14,7 @@ import Work2 from "./assets/calculator.png";
 import Work3 from "./assets/Weather.png";
 import Work4 from "./assets/API.png";
 import Work5 from "./assets/EMS.png";
+import Work6 from "./assets/ShoppingSite.png";
 
 
 
@@ -323,7 +324,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     img: Work5,
     title: "Employee Management System",
     link: "https://github.com/Shaikh-AR/Employee-Management-System",
@@ -342,6 +343,29 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: "Preview : ",
         desc: "https://github.com/Shaikh-AR/Employee-Management-System",
+      },
+    ],
+  },
+  {
+    id: 6,
+    img: Work6,
+    title: "Shopping Site",
+    link: "https://e-commerces-shoppingsite.netlify.app/",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Shopping Site",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "Html, Css, JavaScript",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://e-commerces-shoppingsite.netlify.app/",
       },
     ],
   },
