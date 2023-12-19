@@ -416,6 +416,10 @@ img {
     .stats{
         grid-template-columns: 1fr;
     }
+    .home__title{
+      padding: 0px;
+      margin-top: 30px;
+  }
 
 
 }
