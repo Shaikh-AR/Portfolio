@@ -315,7 +315,7 @@ img {
   }
   .home__title{
     padding: 0px;
-    margin-top: 6px;
+    margin-top: 35px;
 }
   .home__content {
     max-width: 500px;
@@ -395,7 +395,7 @@ img {
     }
     .home__title{
         font-size: var(--h1-font-size);
-        margin-top: -50px;
+        margin-top: -30px;
     }
     .home__description{
         text-align: justify;
