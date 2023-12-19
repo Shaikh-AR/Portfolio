@@ -313,7 +313,10 @@ img {
     border-radius: 50%;
     margin-top: auto;
   }
-
+  .home__title{
+    padding: 0px;
+    margin-top: 6px;
+}
   .home__content {
     max-width: 500px;
     text-align: center;
@@ -385,16 +388,14 @@ img {
 
 @media screen and (max-width:450px){
     .container{
-        padding-inline: 40px 
-    }
-    .home__img{
-        display: none;
+        padding-inline: 52px 
     }
     .home__content{
         margin-block: auto;
     }
     .home__title{
         font-size: var(--h1-font-size);
+        margin-top: -50px;
     }
     .home__description{
         text-align: justify;
