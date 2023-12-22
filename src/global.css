@@ -326,9 +326,9 @@ img {
   .home__title::before {
     all: unset;
   }
-  .home__title span {
+  /* .home__title span {
     display: block;
-  }
+  } */
 
   .container {
     max-width: 540px;

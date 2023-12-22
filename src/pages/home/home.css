@@ -29,6 +29,9 @@
 .home__title span{
     color: var(--first-color);
 }
+.home__title div{
+    font-size: var(--h2-font-size);
+}
 
 .home__title::before{
     content:"";

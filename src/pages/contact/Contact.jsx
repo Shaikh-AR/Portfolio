@@ -5,8 +5,10 @@ import {
   FaFacebookF,
   FaTwitter,
   FaYoutube,
+  FaLinkedin,
+  FaGithub,
 } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+// import { FaGithub } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 import "./contact.css";
 
@@ -19,7 +21,7 @@ const Contact = () => {
 
       <div className="contact__container container grid">
         <div className="container__data">
-          <h3 className="contact__title">Don't be Shy !</h3>
+          <h3 className="contact__title">Connect !</h3>
 
           <p className="contact__description">
             Hello! I'm Abdul Rauf, a Engineering graduate excited about starting
@@ -55,6 +57,15 @@ const Contact = () => {
             >
               <FaGithub />
             </a>
+
+            <a
+              href="https://www.linkedin.com/in/rauf-shaikh/"
+              target="_main"
+              className="contact__social-link"
+            >
+              <FaLinkedin />
+            </a>
+            
             {/* <a href="https://facebook.com" className="contact__social-link">
               <FaFacebookF />
             </a>

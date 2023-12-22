@@ -9,13 +9,13 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from "./assets/ToDo_List.png";
-import Work2 from "./assets/calculator.png";
-import Work3 from "./assets/Weather.png";
-import Work4 from "./assets/API.png";
-import Work5 from "./assets/EMS.png";
-import Work6 from "./assets/ShoppingSite.png";
-
+import Work1 from "./assets/API.png";
+import Work2 from "./assets/EMS.png";
+import Work3 from "./assets/ShoppingSite.png";
+import Work4 from "./assets/ToDo_List.png";
+import Work5 from "./assets/abdulkeep.png";
+import Work6 from "./assets/Weather.png";
+import Work7 from "./assets/calculator.png";
 
 
 import Theme1 from "./assets/purple.png";
@@ -28,6 +28,7 @@ import Theme7 from "./assets/yellowgreen.png";
 import Theme8 from "./assets/orange.png";
 import Theme9 from "./assets/green.png";
 import Theme10 from "./assets/yellow.png";
+
 
 export const links = [
   {
@@ -232,77 +233,6 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: "ToDo List",
-    link: "https://shaikh-ar.github.io/To-Do-List/",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "ToDo List",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "JavaScript",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://shaikh-ar.github.io/To-Do-List/",
-      },
-    ],
-  },
-
-  {
-    id: 2,
-    img: Work2,
-    title: "Normal Calculator",
-    link: "https://shaikh-ar.github.io/Calculator/",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Normal Calculator",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "JavaScript",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://shaikh-ar.github.io/Calculator/",
-      },
-    ],
-  },
-
-  {
-    id: 3,
-    img: Work3,
-    title: "Weather App",
-    link: "https://shaikh-ar.github.io/Weather-App/",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Weather App",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "JavaScript",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://shaikh-ar.github.io/Weather-App/",
-      },
-    ],
-  },
-  {
-    id: 4,
-    img: Work4,
     title: "BookingShowApi",
     link: "https://github.com/Shaikh-AR/BookingShowAPI",
     details: [
@@ -324,8 +254,8 @@ export const portfolio = [
     ],
   },
   {
-    id: 5,
-    img: Work5,
+    id: 2,
+    img: Work2,
     title: "Employee Management System",
     link: "https://github.com/Shaikh-AR/Employee-Management-System",
     details: [
@@ -347,8 +277,8 @@ export const portfolio = [
     ],
   },
   {
-    id: 6,
-    img: Work6,
+    id: 3,
+    img: Work3,
     title: "Shopping Site",
     link: "https://e-commerces-shoppingsite.netlify.app/",
     details: [
@@ -369,7 +299,99 @@ export const portfolio = [
       },
     ],
   },
+  {
+    id: 4,
+    img: Work4,
+    title: "ToDo List",
+    link: "https://shaikh-ar.github.io/To-Do-List/",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "ToDo List",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "JavaScript",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://shaikh-ar.github.io/To-Do-List/",
+      },
+    ],
+  },
+  {
+    id: 5,
+    img: Work5,
+    title: "Keep",
+    link: "https://abdulkeep.netlify.app/",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Abdul Keep",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "Html, Css, JavaScript",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://abdulkeep.netlify.app/",
+      },
+    ],
+  },
+  {
+    id: 6,
+    img: Work6,
+    title: "Weather App",
+    link: "https://shaikh-ar.github.io/Weather-App/",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Weather App",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "JavaScript",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://shaikh-ar.github.io/Weather-App/",
+      },
+    ],
+  },
 
+  {
+    id: 7,
+    img: Work7,
+    title: "Normal Calculator",
+    link: "https://shaikh-ar.github.io/Calculator/",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Normal Calculator",
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "JavaScript",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://shaikh-ar.github.io/Calculator/",
+      },
+    ],
+  },
 ];
 
 export const themes = [
